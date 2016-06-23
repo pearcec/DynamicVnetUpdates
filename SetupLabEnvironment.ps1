@@ -1,16 +1,15 @@
 ﻿<#
 
-Basic template script for creating a VM. Update/change OS values,
-VM series, etc. as needed. 
+Setup the lab environment with a basic VNET/Subnet/VM
 
 #>
 
 # 
 # Variables
 #
-$rgName = "VmTestLab"
+$rgName = "DynamicVnetUpdates"
 $locName = "westus"
-$storageAccountName = "vmdisks01a"
+$storageAccountName = "mjylab062201"
 $storageSku = "Standard_LRS"
 $storageKind = "Storage"
 $vnetName = "vnet1"
